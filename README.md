@@ -20,6 +20,14 @@ Bu proje, klasik Boston Housing veri seti üzerinde veri ön işleme, özellik m
 4. **Hata ve Artık (Residual) Analizi:**
    - Hataların homoskedastik (sabit varyanslı) ve sıfır etrafında rastgele dağıldığı doğrulandı.
    - En büyük sapmaların veri setindeki 50.000$ tavan sınırına (censored data) takılan konutlardan kaynaklandığı tespit edildi.
+  ### 📊 Model Performansı ve Değerlendirme
+
+#### Gerçek vs. Tahmin Edilen Değerler (Actual vs. Predicted)
+![Actual vs Predicted](images/actual_vs_predicted.png)
+
+#### Artık Hata Analizi (Residual Plot)
+![Residual Plot](images/residual_plot.png)
+
 
 ---
 
