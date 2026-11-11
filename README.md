@@ -9,7 +9,7 @@ Bu proje, klasik Boston Housing veri seti üzerinde veri ön işleme, özellik m
 ## 🚀 Proje Özeti ve Metodoloji
 
 1. **Keşifçi Veri Analizi (EDA) & Ön İşleme:**
-   - Hedef değişkendeki (`MEDV`) sağa çarpıklık (skewness) tespit edilerek `log1p` dönüşümü uygulandı.
+   - Bazı değişkenlerdeki (`CRIM,ZN,DIS gibi`) sağa çarpıklık (skewness) tespit edilerek `log1p` dönüşümü uygulandı.
    - Sayısal değişkenler `StandardScaler` ile ölçeklendirildi.
 2. **Özellik Mühendisliği (Feature Engineering):**
    - Ev yaşı ile alt sosyoekonomik durum etkileşimi (`AGE * LSTAT`) ve sanayi yoğunluğu ile hava kirliliği etkileşimi (`INDUS * NOX`) gibi yeni değişkenler üretilerek model performansı artırıldı.
